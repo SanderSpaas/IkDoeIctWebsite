@@ -1,3 +1,6 @@
+header{
+    background-color: white;
+}
 header ul{
     display: flex;
     align-items: center;
