@@ -37,18 +37,26 @@
 .keuzeNerds img{
     width: 12vw;
     height: auto;
-
+}
+section a{
+    width: 12vw;
+    color: black;
+    text-decoration: none;
 }
 .nerd{
     background-color: white;
     border: 1vw solid black;
     width: 12vw;
+    transition: all 0.3s;
+}
+.nerd:hover{
+    transform: scale(1.1);
 }
 .nerd h2{
     text-align: center;
     overflow-wrap: break-word;
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     margin-bottom:1em;
 }
 
