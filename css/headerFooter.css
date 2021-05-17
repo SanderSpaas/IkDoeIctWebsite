@@ -1,0 +1,14 @@
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+    height: 125px;
+}
+header img{
+    max-width:50%;
+    display:block;
+    height:auto;
+}
