@@ -36,10 +36,17 @@ main{
 .rechts ul,h1{
     list-style-type: circle;
     padding-bottom: 1em;
+
+}
+.rechts li{
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    font-size: 1.1vw;
+
 }
 .rechts{
     margin-top: 5em;
-    margin-left: 1em;
+    margin-left: 3em;
 }
 .rechts h1{
     font-size: 1.5vw;
@@ -48,11 +55,13 @@ main{
 .rechts h2{
     font-size: 1.3vw;
     font-weight: bold;
+    margin-top: 1em;
     margin-bottom: 0.5em;
 }
 .rechts p{
-    max-width: 40em;
+    max-width: 50em;
     margin-bottom: 1.5em;
+    font-size: 0.8vw;
 }
 
 .inschrijfCard{
@@ -72,3 +81,28 @@ main{
 .inschrijfCard button{
     margin: 1em;
 }
+
+
+.carousel-wrapper{
+    height:15vw;
+    position:relative;
+    width: 30vw;
+    margin-left: 4em;
+}
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    background:url("https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1782&q=80");
+    background-size:cover;
+}
+.item-2{
+    background:url('https://images.unsplash.com/photo-1460518451285-97b6aa326961?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80');
+    background-size:cover;
+}
+.item-3{
+    background:url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80');
+    background-size:cover;
+}
+
+
+
