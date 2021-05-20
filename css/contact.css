@@ -1,0 +1,30 @@
+main{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.onderverdeling{
+    display: flex;
+}
+.contactcard{
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    justify-content: space-evenly;
+    border-radius: 35px;
+<!-- shadow --> border: 1px solid;
+    box-shadow: 5px 10px 18px rgba(136, 136, 136, 0.47);
+    margin: 1.5em;
+}
+.contactcard h1{
+    font-size: 2.8vw;
+}
+.contactcard p{
+    font-size: 1.6vw;
+    line-height: 1em;
+}
+.contactcard img{
+    width: 100%;
+}
+.foto{
+    width: 35%;
+}
