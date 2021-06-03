@@ -19,6 +19,7 @@
 .carousel-item h2, .carousel-item p{
     z-index: 5;
     background-color: rgba(0, 0, 0, 0.35);
+    padding: 0.5em;
 }
 .arrow{
     border: solid black;
