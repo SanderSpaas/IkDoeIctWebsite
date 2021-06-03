@@ -16,6 +16,10 @@
     font-size: 1.5vw;
     color: white;
 }
+.carousel-item h2, .carousel-item p{
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.35);
+}
 .arrow{
     border: solid black;
     border-width: 0 3px 3px 0;
