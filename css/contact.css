@@ -14,7 +14,63 @@ main{
 <!-- shadow --> border: 1px solid;
     box-shadow: 5px 10px 18px rgba(136, 136, 136, 0.47);
     margin: 1.5em;
+    border: solid 1px #CCC;
+    border-bottom: none;
+    position: relative;
 }
+.contactcard:after {
+    content: '';
+    background: -webkit-linear-gradient(left, rgba(92, 7, 52, 1) 0%, rgba(134, 29, 84, 1) 12%, rgba(255, 93, 177, 1) 47%, rgba(83, 0, 30, 1) 100%);
+    border-radius: 35px;
+    display: block;
+    height:0.5vw;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+}
+.g1:after{
+    background-image: repeating-linear-gradient(0deg, hsla(127,4%,81%,0.05) 0px, hsla(127,4%,81%,0.05) 1px,transparent 1px, transparent 11px,hsla(127,4%,81%,0.05) 11px, hsla(127,4%,81%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(127,4%,81%,0.05) 0px, hsla(127,4%,81%,0.05) 1px,transparent 1px, transparent 11px,hsla(127,4%,81%,0.05) 11px, hsla(127,4%,81%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(127,4%,81%,0.05) 0px, hsla(127,4%,81%,0.05) 1px,transparent 1px, transparent 11px,hsla(127,4%,81%,0.05) 11px, hsla(127,4%,81%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(127,4%,81%,0.05) 0px, hsla(127,4%,81%,0.05) 1px,transparent 1px, transparent 11px,hsla(127,4%,81%,0.05) 11px, hsla(127,4%,81%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(223, 195, 5),rgb(221, 78, 0));
+}
+.g2:after{
+    background-image: repeating-linear-gradient(135deg, hsla(210,79%,75%,0.05) 0px, hsla(210,79%,75%,0.05) 1px,transparent 1px, transparent 11px,hsla(210,79%,75%,0.05) 11px, hsla(210,79%,75%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(45deg, hsla(210,79%,75%,0.05) 0px, hsla(210,79%,75%,0.05) 1px,transparent 1px, transparent 11px,hsla(210,79%,75%,0.05) 11px, hsla(210,79%,75%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(210,79%,75%,0.05) 0px, hsla(210,79%,75%,0.05) 1px,transparent 1px, transparent 11px,hsla(210,79%,75%,0.05) 11px, hsla(210,79%,75%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(210,79%,75%,0.05) 0px, hsla(210,79%,75%,0.05) 1px,transparent 1px, transparent 11px,hsla(210,79%,75%,0.05) 11px, hsla(210,79%,75%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(83, 220, 200),rgb(58, 78, 174));
+}
+.g3:after{
+    background-image: repeating-linear-gradient(0deg, transparent 0px, transparent 25px,hsla(29,69%,89%,0.08) 25px, hsla(29,69%,89%,0.08) 27px,transparent 27px, transparent 51px),repeating-linear-gradient(90deg, transparent 0px, transparent 25px,hsla(29,69%,89%,0.08) 25px, hsla(29,69%,89%,0.08) 27px,transparent 27px, transparent 51px),repeating-linear-gradient(90deg, transparent 0px, transparent 50px,hsla(156,85%,58%,0.08) 50px, hsla(156,85%,58%,0.08) 52px,transparent 52px, transparent 102px),repeating-linear-gradient(0deg, transparent 0px, transparent 50px,hsla(156,85%,58%,0.08) 50px, hsla(156,85%,58%,0.08) 52px,transparent 52px, transparent 102px),repeating-linear-gradient(0deg, hsla(81,81%,82%,0.08) 0px, hsla(81,81%,82%,0.08) 2px,transparent 2px, transparent 102px),repeating-linear-gradient(90deg, hsla(81,81%,82%,0.08) 0px, hsla(81,81%,82%,0.08) 2px,transparent 2px, transparent 102px),linear-gradient(90deg, rgb(95, 227, 159),rgb(103, 128, 9));
+}
+.g4:after{
+    background-image: repeating-linear-gradient(45deg, rgba(193, 249, 252,0.12) 0px, rgba(193, 249, 252,0.12) 1px,transparent 1px, transparent 13px),repeating-linear-gradient(135deg, rgba(193, 249, 252,0.12) 0px, rgba(193, 249, 252,0.12) 1px,transparent 1px, transparent 13px),linear-gradient(90deg, rgb(215, 32, 135),rgb(223, 206, 104));
+}
+.g5:after{
+    background-image: repeating-linear-gradient(45deg, hsla(27,91%,45%,0.1) 0px, hsla(27,91%,45%,0.1) 1px,transparent 1px, transparent 11px,hsla(27,91%,45%,0.1) 11px, hsla(27,91%,45%,0.1) 12px,transparent 12px, transparent 22px),repeating-linear-gradient(0deg, hsla(27,91%,45%,0.05) 0px, hsla(27,91%,45%,0.05) 1px,transparent 1px, transparent 11px,hsla(27,91%,45%,0.05) 11px, hsla(27,91%,45%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(27,91%,45%,0.05) 0px, hsla(27,91%,45%,0.05) 1px,transparent 1px, transparent 11px,hsla(27,91%,45%,0.05) 11px, hsla(27,91%,45%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(27,91%,45%,0.05) 0px, hsla(27,91%,45%,0.05) 1px,transparent 1px, transparent 11px,hsla(27,91%,45%,0.05) 11px, hsla(27,91%,45%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(45deg, hsla(27,91%,45%,0.05) 0px, hsla(27,91%,45%,0.05) 1px,transparent 1px, transparent 11px,hsla(27,91%,45%,0.05) 11px, hsla(27,91%,45%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(66, 24, 4),rgb(204, 64, 80));
+}
+.g6:after{
+    background-image: repeating-linear-gradient(45deg, hsla(9,19%,100%,0.05) 0px, hsla(9,19%,100%,0.05) 1px,transparent 1px, transparent 11px,hsla(9,19%,100%,0.05) 11px, hsla(9,19%,100%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(9,19%,100%,0.05) 0px, hsla(9,19%,100%,0.05) 1px,transparent 1px, transparent 11px,hsla(9,19%,100%,0.05) 11px, hsla(9,19%,100%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(45deg, hsla(9,19%,100%,0.05) 0px, hsla(9,19%,100%,0.05) 1px,transparent 1px, transparent 11px,hsla(9,19%,100%,0.05) 11px, hsla(9,19%,100%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(9,19%,100%,0.05) 0px, hsla(9,19%,100%,0.05) 1px,transparent 1px, transparent 11px,hsla(9,19%,100%,0.05) 11px, hsla(9,19%,100%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(158, 93, 28),rgb(233, 249, 55));
+}
+.g7:after{
+    background-image: repeating-linear-gradient(0deg, hsla(116,39%,82%,0.05) 0px, hsla(116,39%,82%,0.05) 1px,transparent 1px, transparent 11px,hsla(116,39%,82%,0.05) 11px, hsla(116,39%,82%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(116,39%,82%,0.05) 0px, hsla(116,39%,82%,0.05) 1px,transparent 1px, transparent 11px,hsla(116,39%,82%,0.05) 11px, hsla(116,39%,82%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(116,39%,82%,0.05) 0px, hsla(116,39%,82%,0.05) 1px,transparent 1px, transparent 11px,hsla(116,39%,82%,0.05) 11px, hsla(116,39%,82%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(116,39%,82%,0.05) 0px, hsla(116,39%,82%,0.05) 1px,transparent 1px, transparent 11px,hsla(116,39%,82%,0.05) 11px, hsla(116,39%,82%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(100, 129, 181),rgb(7, 3, 141));
+}
+.g8:after{
+    background-image: repeating-linear-gradient(0deg, hsla(342,35%,96%,0.05) 0px, hsla(342,35%,96%,0.05) 1px,transparent 1px, transparent 11px,hsla(342,35%,96%,0.05) 11px, hsla(342,35%,96%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(342,35%,96%,0.05) 0px, hsla(342,35%,96%,0.05) 1px,transparent 1px, transparent 11px,hsla(342,35%,96%,0.05) 11px, hsla(342,35%,96%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(45deg, hsla(342,35%,96%,0.05) 0px, hsla(342,35%,96%,0.05) 1px,transparent 1px, transparent 11px,hsla(342,35%,96%,0.05) 11px, hsla(342,35%,96%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(342,35%,96%,0.05) 0px, hsla(342,35%,96%,0.05) 1px,transparent 1px, transparent 11px,hsla(342,35%,96%,0.05) 11px, hsla(342,35%,96%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(57, 46, 1),rgb(80, 228, 41));
+}
+.g9:after{
+    background-image: repeating-linear-gradient(45deg, hsla(112,98%,100%,0.05) 0px, hsla(112,98%,100%,0.05) 1px,transparent 1px, transparent 11px,hsla(112,98%,100%,0.05) 11px, hsla(112,98%,100%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(112,98%,100%,0.05) 0px, hsla(112,98%,100%,0.05) 1px,transparent 1px, transparent 11px,hsla(112,98%,100%,0.05) 11px, hsla(112,98%,100%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(112,98%,100%,0.05) 0px, hsla(112,98%,100%,0.05) 1px,transparent 1px, transparent 11px,hsla(112,98%,100%,0.05) 11px, hsla(112,98%,100%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(112,98%,100%,0.05) 0px, hsla(112,98%,100%,0.05) 1px,transparent 1px, transparent 11px,hsla(112,98%,100%,0.05) 11px, hsla(112,98%,100%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(229, 94, 170),rgb(247, 192, 238));
+}
+.g10:after{
+    background-image: repeating-linear-gradient(135deg, rgba(4, 229, 71,0.08) 0px, rgba(4, 229, 71,0.08) 1px,transparent 1px, transparent 9px),repeating-linear-gradient(45deg, rgba(4, 229, 71,0.08) 0px, rgba(4, 229, 71,0.08) 1px,transparent 1px, transparent 9px),linear-gradient(90deg, rgb(77, 18, 84),rgb(52, 161, 185));
+}
+.g11:after{
+    background-image: repeating-linear-gradient(45deg, rgba(77, 253, 7,0.08) 0px, rgba(77, 253, 7,0.08) 1px,transparent 1px, transparent 9px),repeating-linear-gradient(135deg, rgba(77, 253, 7,0.08) 0px, rgba(77, 253, 7,0.08) 1px,transparent 1px, transparent 9px),linear-gradient(90deg, rgb(197, 229, 222),rgb(25, 29, 247));
+}
+.g12:after{
+    background-image: repeating-linear-gradient(45deg, rgba(221, 211, 144,0.12) 0px, rgba(221, 211, 144,0.12) 1px,transparent 1px, transparent 13px),repeating-linear-gradient(135deg, rgba(221, 211, 144,0.12) 0px, rgba(221, 211, 144,0.12) 1px,transparent 1px, transparent 13px),linear-gradient(90deg, rgb(197, 4, 89),rgb(58, 28, 99));
+}
+.g13:after{
+    background-image: repeating-linear-gradient(90deg, hsla(281,0%,81%,0.05) 0px, hsla(281,0%,81%,0.05) 1px,transparent 1px, transparent 104px),repeating-linear-gradient(0deg, hsla(281,0%,81%,0.05) 0px, hsla(281,0%,81%,0.05) 1px,transparent 1px, transparent 104px),repeating-linear-gradient(0deg, hsla(281,0%,81%,0.07) 0px, hsla(281,0%,81%,0.07) 1px,transparent 1px, transparent 13px),repeating-linear-gradient(90deg, hsla(281,0%,81%,0.07) 0px, hsla(281,0%,81%,0.07) 1px,transparent 1px, transparent 13px),linear-gradient(45deg, rgb(46, 34, 140),rgb(226, 181, 164));
+}
+.g14:after{
+    background-image: repeating-linear-gradient(90deg, hsla(137,0%,87%,0.06) 0px, hsla(137,0%,87%,0.06) 1px,transparent 1px, transparent 96px),repeating-linear-gradient(0deg, hsla(137,0%,87%,0.06) 0px, hsla(137,0%,87%,0.06) 1px,transparent 1px, transparent 96px),repeating-linear-gradient(0deg, hsla(137,0%,87%,0.09) 0px, hsla(137,0%,87%,0.09) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(90deg, hsla(137,0%,87%,0.09) 0px, hsla(137,0%,87%,0.09) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(35, 5, 181),rgb(35, 108, 221));
+}
+
 .contactcard h1{
     font-size: 2.8vw;
 }
@@ -27,4 +83,26 @@ main{
 }
 .foto{
     width: 35%;
+}
+@media only screen and (max-width: 600px) {
+    main{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .onderverdeling{
+        flex-direction: column;
+    }
+    .contactcard{
+        margin: 0.8em;
+    }
+    .contactcard:after {
+        width: 80%;
+        height:1vw;
+    }
+    .contactcard h1{
+        font-size: 4vw;
+    }
+    .contactcard p{
+        font-size: 3vw;
+    }
 }
