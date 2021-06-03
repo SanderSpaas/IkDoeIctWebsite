@@ -29,7 +29,6 @@
     display: flex;
     justify-content: space-around;
     height: auto;
-    width: 100vw;
     background-image: linear-gradient(90deg, rgba(116, 116, 191, 1),rgba(52, 138, 199, 1));
     background-color:yellow;
     box-shadow:0 0 0 3vw white inset;
@@ -48,6 +47,7 @@ section a{
     border: 1vw solid black;
     width: 12vw;
     transition: all 0.3s;
+
 }
 .nerd:hover{
     transform: scale(1.1);
