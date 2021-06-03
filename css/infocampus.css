@@ -44,5 +44,31 @@ footer p{
     padding-bottom: 10px;
 }
 
+@media (max-width: 480px) {
+    .campusInfo{
+        flex-direction: column;
+    }
+    .campusInfo img{
+        width: auto;
+        order: 1;
+    }
+    .campusInfo h2{
+        font-size: 5.5vw;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+    .textInfo{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+    }
+    .campusInfo button{
+        height: 50px;
+    }
+    .campusInfo button p{
+        font-size: 4vw;
+    }
+}
+
 
 
