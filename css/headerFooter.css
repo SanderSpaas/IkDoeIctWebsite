@@ -31,6 +31,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     color: white;
+    margin-top: 25px;
 }
 
 .social{
@@ -64,6 +65,18 @@ footer img{
         font-weight: bold;
         border-bottom: 5px solid black;
         height: 60px;
-
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .copy{
+        align-self: center;
+    }
+    .social{
+        flex-direction: row;
+        align-self: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }
