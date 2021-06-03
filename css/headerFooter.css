@@ -9,7 +9,6 @@ header ul{
     font-weight: bold;
     border-bottom: 5px solid black;
     height: 125px;
-
 }
 header a{
     text-decoration: none;
@@ -20,7 +19,24 @@ header a:hover{
 
 }
 header img{
-    max-width:50%;
+    max-width:10em;
     display:block;
     height:auto;
+}
+@media only screen and (max-width: 600px) {
+    header img{
+        max-width:20em;
+        display:block;
+        height:auto;
+    }
+    header ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.5vw;
+        font-weight: bold;
+        border-bottom: 5px solid black;
+        height: 60px;
+
+    }
 }
