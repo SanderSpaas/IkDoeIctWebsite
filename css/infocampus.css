@@ -61,6 +61,7 @@ footer p{
         padding-left: 25px;
         padding-right: 25px;
         padding-bottom: 25px;
+        text-align: center;
     }
     .campusInfo button{
         height: 50px;
