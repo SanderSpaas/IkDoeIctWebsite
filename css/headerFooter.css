@@ -66,7 +66,10 @@ footer img{
         font-size: 1em;
         line-height: 2.4em;
     }
-    header li{
+    header a{
+        display: block;
+    }
+    header a{
         border-bottom: 2px solid black;
         padding: 0.5em;
     }
