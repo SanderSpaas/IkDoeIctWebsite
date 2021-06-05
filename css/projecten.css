@@ -72,6 +72,9 @@
 }
 
 @media  (max-width: 480px) {
+    projectTot{
+        flex-direction:column!important;
+    }
     /*.row{*/
     /*    display: flex;*/
     /*    flex-wrap: wrap;*/
@@ -97,9 +100,7 @@
         justify-content: center;
         margin:auto;
     }
-    projectTot{
-        flex-direction:column!important;
-    }
+
     .project h2{
         font-size: 5.5vw;
         padding-bottom: 25px;

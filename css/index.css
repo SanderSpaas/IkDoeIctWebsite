@@ -83,6 +83,9 @@ section a{
  .campusCard button{
      margin: 1em;
  }
+ .campusCard button a{
+     display: block;
+ }
  .textlinks{
      display: flex;
      flex-direction: column;
