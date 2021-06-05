@@ -46,14 +46,6 @@
     color:white;
 }
 
-@media (max-width: 480px) {
-    .arrow, .light .arrow {
-        background-size: 10px;
-        background-position: 10px 50%;
-    }
-}
-
-
 /*Select every element*/
 [id^="item"] {
     display: none;
@@ -85,5 +77,20 @@
 #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
     z-index: 3;
     opacity: 1;
+}
+@media (max-width: 480px) {
+    .carousel-wrapper{
+        height:40vw;
+        position:relative;
+        width: 80vw;
+        margin:0 auto;
+    }
+    .carousel-item{
+        font-size: 2vw;
+    }
+    .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+    }
 }
 
