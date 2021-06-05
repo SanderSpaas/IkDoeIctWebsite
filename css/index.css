@@ -101,6 +101,19 @@ section a {
     flex-direction: column;
     justify-content: center;
 }
+=======
+ .campusCard button{
+     margin: 1em;
+ }
+ .campusCard button a{
+     display: block;
+ }
+ .textlinks{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+>>>>>>> ced59bb2d04ab2e77a6e22da3e64f59bcbc9aa52
 
 @media (max-width: 480px) {
     .tussenschot {

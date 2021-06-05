@@ -22,6 +22,10 @@
     border-radius: 25px;
     flex-basis: 60%;
 }
+
+.campusInfo button a{
+    display: block;
+}
 .campusInfo h2{
     font-size: 1.5vw;
     padding-bottom: 25px;
